@@ -145,12 +145,10 @@
 .section-subtitle {
   width: 60%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .table {
@@ -339,6 +337,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .footer__column-links {
