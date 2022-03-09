@@ -1,3 +1,12 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -62,6 +71,12 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color:rgb(32, 223, 213);
+  opacity: 0.3;
+  transition:0.5s linear;
+}
+
 .header__main-illustration {
   position: absolute;
   right: 0;
@@ -80,6 +95,9 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
 }
 
 .description {
@@ -184,6 +202,72 @@
 .table__text:last-child {
   margin-bottom: 0;
 }
+
+.techniques {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.cards {
+  margin-left:auto;
+  margin-right:auto;
+  width: 80%;
+  margin-top:60px;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 60px;
+  grid-column-gap: 100px;
+  text-align:center;
+}
+
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin-left:40px;
+  margin-right:40px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top:43px;
+  margin-bottom: 16px;
+}
+
+.cards__description {
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.video {
+  margin-top:100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  margin-top:50px auto -50px auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+.video__iframe {
+  width:515px;
+  height:316px;
+  margin-left: 20px;
+  border: 0;
+}
+
+.video__iframe:first-child {
+  margin: 0;
+}
+
 .feynman {
   min-height: 890px;
   background-color: #f2f2f2;
@@ -225,6 +309,12 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.feynman__link:hover {
+  color:rgb(32, 223, 213);
+  opacity: 0.3;
+  transition:0.5s linear;
 }
 
 .kaufman {
@@ -339,6 +429,13 @@
   font-weight: normal;
   text-decoration: none;
 }
+
+.footer__column-link:hover {
+  color:rgb(99, 32, 223);
+  opacity: 0.3;
+  transition:0.5s linear;
+}
+
 
 .footer__column-links {
   margin-bottom: 16px;
