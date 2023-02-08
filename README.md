@@ -1,25 +1,25 @@
-#Научиться учиться. Лендинг для Яндекс.Практикума
+# Научиться учиться. Лендинг для Яндекс.Практикума
 Проект представляет собой одностраничный сайт.
 
-##Стек
-*HTML
-*CCS
+## Стек
+* HTML
+* CCS
 
-##Реализация
+## Реализация
 *Flexbox вёрстка
 *CSS-анимация
 *Файловая структура проекта по правилам Nested БЭМ
 
 
 
-#How to learn. The second project for Yandex.Praktikum
+# How to learn. The second project for Yandex.Praktikum
 The single page website is created using some advanced features of HTML and CSS.
 
-##Stack
+## Stack
 *HTML
 *CSS
 
-#Realization
+# Realization
 *Flexbox layout
 *CSS-animation
 *The Nested BEM file stucture
