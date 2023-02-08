@@ -6,9 +6,9 @@
 * CCS
 
 ## Реализация
-*Flexbox вёрстка
-*CSS-анимация
-*Файловая структура проекта по правилам Nested БЭМ
+* Flexbox вёрстка
+* CSS-анимация
+* Файловая структура проекта по правилам Nested БЭМ
 
 
 
@@ -16,10 +16,10 @@
 The single page website is created using some advanced features of HTML and CSS.
 
 ## Stack
-*HTML
-*CSS
+* HTML
+* CSS
 
 # Realization
-*Flexbox layout
-*CSS-animation
-*The Nested BEM file stucture
+* Flexbox layout
+* CSS-animation
+* The Nested BEM file stucture
